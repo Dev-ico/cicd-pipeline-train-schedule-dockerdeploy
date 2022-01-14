@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'master' }
     environment {
-	    DOCKERHUB_CREDENTIALS=credentials('docker_hub_login')
+	    DOCKERHUB_CREDENTIALS=credentials('97f0d786-cec3-44b2-9e97-e3c1d2267f7a')
 	}
     stages {
         stage('Push Docker Image') {
